@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: sans-serif;
+  text-align: center;
+  background: #cfcfcf;
+}
+
+a {
+  color: #000;
+}
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+#drum-machine {
+}
+
+.drum-key {
+  display: inline-block;
+}
+
+.drum-key button {
+  min-width: 60px;
+  min-height: 60px;
+  background: #f7d07e;
+  border: 5px solid #74520a;
+  border-radius: 40px;
+  font-size: 1.2em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
